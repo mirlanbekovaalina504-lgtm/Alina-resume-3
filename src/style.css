@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff1f4;
+  color: #493840;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 40px 16px;
+}
+
+.card {
+  max-width: 720px;
+  margin: auto;
+  padding: 45px;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 15px 50px #b9798b20;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: #eac4d0;
+  color: #80495f;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.label {
+  text-align: center;
+  color: #bd8296;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 42px;
+  line-height: 1.3;
+}
+
+h1 span {
+  color: #bd8296;
+}
+
+.job {
+  text-align: center;
+  color: #94727e;
+}
+
+.line {
+  height: 1px;
+  background: #f0dce3;
+  margin: 30px 0;
+}
+
+section {
+  margin-top: 30px;
+}
+
+h2 {
+  color: #ad7186;
+  font-family: Georgia, serif;
+}
+
+section p {
+  line-height: 1.8;
+  color: #76636b;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  padding: 9px 15px;
+  background: #fff0f4;
+  color: #9b6378;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.muted {
+  font-size: 13px;
+}
+
+a {
+  color: #ad7186;
+}
+
+button {
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background: #bd8296;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #a5677d;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 25px 20px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+}
